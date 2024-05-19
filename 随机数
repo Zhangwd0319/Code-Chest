@@ -1,0 +1,10 @@
+import random
+
+def generate_random_number():
+    return random.randint(1, 1000)
+
+# 输入报数，生成随机数
+print("请按回车键以生成一个1到1000之间的随机数：")
+input("按回车键继续...")
+random_number = generate_random_number()
+print("生成的随机数是：{random_number}")
